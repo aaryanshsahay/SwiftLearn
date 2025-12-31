@@ -1,1 +1,9 @@
 /poker_bankroll
+
+# Swift
+.build/
+.swiftpm/
+*.xcodeproj
+xcuserdata/
+DerivedData/
+.DS_Store
