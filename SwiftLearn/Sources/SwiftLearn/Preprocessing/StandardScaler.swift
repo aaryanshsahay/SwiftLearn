@@ -8,13 +8,39 @@ import Accelerate
 
 /// Standardize features by removing the mean and scaling to unit variance.
 /// The standard score of a sample `x` is calculated as:
-/// 
+///
 ///     z = (x-u) / v
 ///
 /// -> where `u` is the mean (or zero if `withMean=false`)
 /// -> where 'v' is the standard deviation (or one if `withStd=false`)
 ///
-/// ## Example
+/// ## Loading from Python (sklearn)
+///
+/// Train and export in Python:
+/// ```python
+/// from sklearn.preprocessing import StandardScaler
+/// import json
+///
+/// scaler = StandardScaler()
+/// scaler.fit(X_train)
+///
+/// # Export weights
+/// weights = {
+///     "mean_": scaler.mean_.tolist(),
+///     "scale_": scaler.scale_.tolist()
+/// }
+/// json.dump(weights, open("scaler.json", "w"))
+/// ```
+///
+/// Load and use in Swift:
+/// ```swift
+/// import SwiftLearn
+///
+/// let scaler = try StandardScaler.load(from: "scaler.json")
+/// let scaled = try scaler.transform(newData)
+/// ```
+///
+/// ## Example (fitting in Swift)
 /// ```swift
 /// var scaler = StandardScaler()
 /// let X = Matrix([[0,0],[0,0],[1,1],[1,1]])
@@ -70,6 +96,82 @@ public struct StandardScaler {
     public init(withMean: Bool = true, withStd: Bool = true){
         self.withMean = withMean
         self.withStd = withStd
+    }
+
+    // MARK: - Load from File
+
+    /// Load a StandardScaler from a JSON file exported from Python sklearn.
+    ///
+    /// Expected JSON format:
+    /// ```json
+    /// {
+    ///     "mean_": [0.5, 0.5],
+    ///     "scale_": [0.5, 0.5]
+    /// }
+    /// ```
+    ///
+    /// - Parameter path: Path to the JSON file
+    /// - Returns: A fitted StandardScaler ready for transform
+    /// - Throws: `SwiftLearnError.serializationError` if file cannot be read or parsed
+    public static func load(from path: String) throws -> StandardScaler {
+        let url = URL(fileURLWithPath: path)
+
+        guard let data = try? Data(contentsOf: url) else {
+            throw SwiftLearnError.serializationError("Could not read file at path: \(path)")
+        }
+
+        guard let json = try? JSONSerialization.jsonObject(with: data) as? [String: Any] else {
+            throw SwiftLearnError.serializationError("Invalid JSON format in file: \(path)")
+        }
+
+        guard let mean = json["mean_"] as? [Double] else {
+            throw SwiftLearnError.serializationError("Missing or invalid 'mean_' array in JSON")
+        }
+
+        guard let scale = json["scale_"] as? [Double] else {
+            throw SwiftLearnError.serializationError("Missing or invalid 'scale_' array in JSON")
+        }
+
+        guard mean.count == scale.count else {
+            throw SwiftLearnError.serializationError("mean_ and scale_ arrays must have the same length")
+        }
+
+        var scaler = StandardScaler(withMean: true, withStd: true)
+        scaler.mean_ = mean
+        scaler.scale_ = scale
+        scaler.nFeaturesIn_ = mean.count
+
+        return scaler
+    }
+
+    /// Load a StandardScaler from JSON Data exported from Python sklearn.
+    ///
+    /// - Parameter data: JSON data
+    /// - Returns: A fitted StandardScaler ready for transform
+    /// - Throws: `SwiftLearnError.serializationError` if data cannot be parsed
+    public static func load(from data: Data) throws -> StandardScaler {
+        guard let json = try? JSONSerialization.jsonObject(with: data) as? [String: Any] else {
+            throw SwiftLearnError.serializationError("Invalid JSON format")
+        }
+
+        guard let mean = json["mean_"] as? [Double] else {
+            throw SwiftLearnError.serializationError("Missing or invalid 'mean_' array in JSON")
+        }
+
+        guard let scale = json["scale_"] as? [Double] else {
+            throw SwiftLearnError.serializationError("Missing or invalid 'scale_' array in JSON")
+        }
+
+        guard mean.count == scale.count else {
+            throw SwiftLearnError.serializationError("mean_ and scale_ arrays must have the same length")
+        }
+
+        var scaler = StandardScaler(withMean: true, withStd: true)
+        scaler.mean_ = mean
+        scaler.scale_ = scale
+        scaler.nFeaturesIn_ = mean.count
+
+        return scaler
     }
 
     // MARK: - Fit Methods
