@@ -1,0 +1,996 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.xctest/Contents/MacOS/SwiftLearnPackageTests",
+      "packagePath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn",
+      "productName" : "SwiftLearnPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SwiftLearn-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/sources",
+      "importPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Errors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/MathUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Protocols/Classifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Protocols/Estimator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Protocols/Transformer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Types/Matrix.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Preprocessing/StandardScaler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/SwiftLearn.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftLearn",
+      "moduleOutputPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules/SwiftLearn.swiftmodule",
+      "objects" : [
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Errors.swift.o",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/MathUtils.swift.o",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Classifier.swift.o",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Estimator.swift.o",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Transformer.swift.o",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Matrix.swift.o",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/StandardScaler.swift.o",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/SwiftLearn.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/SwiftLearn-Swift.h",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftlearn"
+      ],
+      "outputFileMapPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Errors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/MathUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Classifier.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Estimator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Transformer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Matrix.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/StandardScaler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/SwiftLearn.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules/SwiftLearn.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Errors.swift",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/MathUtils.swift",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Protocols/Classifier.swift",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Protocols/Estimator.swift",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Protocols/Transformer.swift",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Types/Matrix.swift",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Preprocessing/StandardScaler.swift",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/SwiftLearn.swift"
+      ],
+      "tempsPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftLearnDemo-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.build/sources",
+      "importPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearnDemo/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules/SwiftLearn.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "SwiftLearnDemo",
+      "moduleOutputPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules/SwiftLearnDemo.swiftmodule",
+      "objects" : [
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "SwiftLearnDemo_main",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftlearn"
+      ],
+      "outputFileMapPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules/SwiftLearnDemo.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearnDemo/main.swift"
+      ],
+      "tempsPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftLearnPackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.build/sources",
+      "importPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules/SwiftLearnTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftLearnPackageTests",
+      "moduleOutputPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules/SwiftLearnPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.build/SwiftLearnPackageTests-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftlearn"
+      ],
+      "outputFileMapPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules/SwiftLearnPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftLearnTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/sources",
+      "importPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Tests/SwiftLearnTests/CoreTests/MathUtilsTest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Tests/SwiftLearnTests/PreprocessingTests/StandardScalerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules/SwiftLearn.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftLearnTests",
+      "moduleOutputPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules/SwiftLearnTests.swiftmodule",
+      "objects" : [
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/MathUtilsTest.swift.o",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/StandardScalerTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftlearn"
+      ],
+      "outputFileMapPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/MathUtilsTest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/StandardScalerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules/SwiftLearnTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Tests/SwiftLearnTests/CoreTests/MathUtilsTest.swift",
+        "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Tests/SwiftLearnTests/PreprocessingTests/StandardScalerTests.swift"
+      ],
+      "tempsPath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SwiftLearn" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SwiftLearn",
+      "-package-name",
+      "swiftlearn",
+      "-incremental",
+      "-c",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Errors.swift",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/MathUtils.swift",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Protocols/Classifier.swift",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Protocols/Estimator.swift",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Protocols/Transformer.swift",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Types/Matrix.swift",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Preprocessing/StandardScaler.swift",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/SwiftLearn.swift",
+      "-I",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/SwiftLearn-Swift.h",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftlearn",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SwiftLearnDemo" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SwiftLearnDemo",
+      "-package-name",
+      "swiftlearn",
+      "-incremental",
+      "-c",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearnDemo/main.swift",
+      "-I",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "SwiftLearnDemo_main",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftlearn",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SwiftLearnPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SwiftLearnPackageTests",
+      "-package-name",
+      "swiftlearn",
+      "-incremental",
+      "-c",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.build/SwiftLearnPackageTests-Swift.h",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftlearn",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SwiftLearnTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SwiftLearnTests",
+      "-package-name",
+      "swiftlearn",
+      "-incremental",
+      "-c",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Tests/SwiftLearnTests/CoreTests/MathUtilsTest.swift",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Tests/SwiftLearnTests/PreprocessingTests/StandardScalerTests.swift",
+      "-I",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftlearn",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SwiftLearn" : [
+
+    ],
+    "SwiftLearnDemo" : [
+      "SwiftLearn"
+    ],
+    "SwiftLearnPackageTests" : [
+      "SwiftLearnTests",
+      "SwiftLearn"
+    ],
+    "SwiftLearnTests" : [
+      "SwiftLearn"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Errors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/MathUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Protocols/Classifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Protocols/Estimator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Protocols/Transformer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Core/Types/Matrix.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/Preprocessing/StandardScaler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearn/SwiftLearn.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/sources"
+    },
+    "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo-entitlement.plist"
+    },
+    "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearnDemo/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.build/sources"
+    },
+    "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Classifier.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Errors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Estimator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/MathUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Matrix.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/StandardScaler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/SwiftLearn.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Transformer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.product/Objects.LinkFileList"
+    },
+    "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.build/sources"
+    },
+    "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Classifier.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Errors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Estimator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/MathUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Matrix.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/StandardScaler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/SwiftLearn.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/Transformer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/MathUtilsTest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/StandardScalerTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Tests/SwiftLearnTests/CoreTests/MathUtilsTest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Tests/SwiftLearnTests/PreprocessingTests/StandardScalerTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/sources"
+    },
+    "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

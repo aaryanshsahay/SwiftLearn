@@ -67,7 +67,7 @@ public struct StandardScaler {
     /// - Parameters:
     ///     -> withMean: if `true`, center the data before scaling. Default is `true`.
     ///     -> withStd: if `true`, scale the data to unit variance. Default is `true`.
-    public init(withMean: Bool = true, withStd: bool = true){
+    public init(withMean: Bool = true, withStd: Bool = true){
         self.withMean = withMean
         self.withStd = withStd
     }
@@ -123,7 +123,7 @@ public struct StandardScaler {
 
         guard X.cols == nFeaturesIn_ else {
             throw SwiftLearnError.dimensionMismatch(
-                expected: nFeaturesIn_,
+                expected: nFeaturesIn_!,
                 got: X.cols
             )
         }
@@ -131,7 +131,7 @@ public struct StandardScaler {
         var result = X
 
         // Apply centering: X = X - mean
-        if withMean, let mean == mean_ {
+        if withMean, let mean = mean_ {
             for i in 0..<result.rows {
                 for j in 0..<result.cols {
                     result[i,j] -= mean[j]
@@ -175,8 +175,8 @@ public struct StandardScaler {
             )
         }
 
-        var result = x
-        
+        var result = X
+
         // Reverse scaling: X = X * scale
         if withStd, let scale = scale_ {
             for i in 0..<result.rows {
@@ -187,7 +187,7 @@ public struct StandardScaler {
         }
 
         // Reverse centering: X = X + mean
-        if withmean, let mean = mean_ {
+        if withMean, let mean = mean_ {
             for i in 0..<result.rows{
                 for j in 0..<result.cols{
                     result[i,j] += mean[j]
@@ -255,7 +255,7 @@ public struct StandardScaler {
     }
 
     /// Compute variance of a column (biased, ddof=0) using Accelerate.
-    private func _columnVariance(_ X: matrix, column: Int, mean: Double) -> Double {
+    private func _columnVariance(_ X: Matrix, column: Int, mean: Double) -> Double {
         let colData = X.column(column)
         let n = Double(colData.count)
 
@@ -284,14 +284,14 @@ extension StandardScaler: Codable {
 
     public init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        
+
         withMean = try container.decode(Bool.self, forKey: .withMean)
         withStd = try container.decode(Bool.self, forKey: .withStd)
-        mean_ = try container.decodeIfPresent(Bool.self, forKey: .mean)
-        var_ = try container.decodeIfPresent(Bool.self, forKey: .variance)
-        scale_ = try container.decodeIfPresent(Bool.self, forKey: .scale)
-        nFeaturesIn_ = try container.decodeIfPresent(Bool.self, forKey: .nFeaturesIn)
-        nSamplesSeen_ = try container.decodeIfPresent(Bool.self, forKey: .nSamplesSeen)
+        mean_ = try container.decodeIfPresent([Double].self, forKey: .mean)
+        var_ = try container.decodeIfPresent([Double].self, forKey: .variance)
+        scale_ = try container.decodeIfPresent([Double].self, forKey: .scale)
+        nFeaturesIn_ = try container.decodeIfPresent(Int.self, forKey: .nFeaturesIn)
+        nSamplesSeen_ = try container.decodeIfPresent(Int.self, forKey: .nSamplesSeen)
     }
 
     public func encode(to encoder: Encoder) throws {
@@ -318,49 +318,3 @@ extension StandardScaler: CustomStringConvertible {
         }
     }
 }
-
-
-"""
-## Usage Example
-import SwiftLearn
-// create sample data
-let X = Matrix([
-    [0.0,0.0],
-    [0.0,0.0],
-    [1.0,1.0],
-    [1.0,1.0]
-])
-
-// create & fit scaler
-var scaler = StandardScaler()
-let scaled = try scaler.fitTransform(X)
-
-print(scaler)
-// StandardScaler(withMean: true, withStd: true, nFeatures: 2)
-
-print("Mean: ", scaler.mean_!)
-// Mean: [0.5, 0.5]
-
-print("Scale: ", scaler.scale_!)
-// scale: [0.5, 0.5]
-
-print(scaled.prettyPrint)
-// Matrix(4x2):
-// [-1.0000, -1.0000]
-// [-1.0000, -1.0000]
-// [1.0000, 1.0000]
-// [1.0000, 1.0000]
-
-// Transform new data
-let newData = Matrix([[2.0, 2.0]])
-let newScaled = try scaler.transform(newData)
-print(newScaled.prettyPrint)
-// Matrix(1x2):
-// [3.0000, 3.0000]
-
-// inverse transform
-let restored = try scaler.inverseTransform(scaled)
-print(restored.prettyPrint)
-// Gets back original data
-
-"""

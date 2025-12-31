@@ -1,0 +1,4 @@
+module SwiftLearnPackageTests {
+    header "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnPackageTests.build/SwiftLearnPackageTests-Swift.h"
+    requires objc
+}

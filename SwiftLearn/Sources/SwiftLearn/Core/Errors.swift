@@ -6,7 +6,7 @@
 public enum SwiftLearnError: Error, LocalizedError {
     case notFitted(String)
     case invalidInput(String)
-    case dimensionMismatch(Expected: Int, got: Int)
+    case dimensionMismatch(expected: Int, got: Int)
     case serializationError(String)
 
     public var errorDescription: String? {

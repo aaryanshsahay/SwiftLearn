@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.build/master.swiftdeps"
+  },
+  "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Sources/SwiftLearnDemo/main.swift": {
+    "dependencies": "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.build/main.d",
+    "object": "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.build/main.swift.o",
+    "swiftmodule": "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnDemo.build/main.swiftdeps"
+  }
+}

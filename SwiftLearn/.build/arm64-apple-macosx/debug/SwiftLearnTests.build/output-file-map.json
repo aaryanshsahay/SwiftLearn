@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/master.swiftdeps"
+  },
+  "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Tests/SwiftLearnTests/CoreTests/MathUtilsTest.swift": {
+    "dependencies": "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/MathUtilsTest.d",
+    "object": "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/MathUtilsTest.swift.o",
+    "swiftmodule": "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/MathUtilsTest~partial.swiftmodule",
+    "swift-dependencies": "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/MathUtilsTest.swiftdeps"
+  },
+  "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/Tests/SwiftLearnTests/PreprocessingTests/StandardScalerTests.swift": {
+    "dependencies": "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/StandardScalerTests.d",
+    "object": "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/StandardScalerTests.swift.o",
+    "swiftmodule": "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/StandardScalerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearnTests.build/StandardScalerTests.swiftdeps"
+  }
+}
