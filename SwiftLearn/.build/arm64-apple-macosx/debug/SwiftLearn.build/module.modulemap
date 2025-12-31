@@ -1,4 +1,0 @@
-module SwiftLearn {
-    header "/Users/aaryanshsahay/Documents/GitHub/SklearnSwift/SwiftLearn/.build/arm64-apple-macosx/debug/SwiftLearn.build/SwiftLearn-Swift.h"
-    requires objc
-}
