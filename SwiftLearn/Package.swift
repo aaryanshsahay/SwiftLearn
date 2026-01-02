@@ -8,14 +8,14 @@ let package = Package(
             name: "SwiftLearn",
             targets: ["SwiftLearn"]),
         .executable(
-            name: "SwiftLearnDemo",
-            targets: ["SwiftLearnDemo"]),
+            name: "Examples",
+            targets: ["Examples"]),
     ],
     targets: [
         .target(
             name: "SwiftLearn"),
         .executableTarget(
-            name: "SwiftLearnDemo",
+            name: "Examples",
             dependencies: ["SwiftLearn"]),
         .testTarget(
             name: "SwiftLearnTests",
